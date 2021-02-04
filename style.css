@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family:'Poppins', sans-serif;
+}
+
+.box {
+    margin: auto;
+    width: min(90vw, 800px);    
+}
+
+.box h1 {
+    margin-bottom: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+}
+
+.box h2 {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+#pessoal {
+    padding-bottom: 2.5rem;
+}
