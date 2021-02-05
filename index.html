@@ -18,27 +18,31 @@
         <h2>Faça parte do nosso time!</h2>
 
         <form>
-            <section id="pessoal">
+            
                 <div class="grupo">
-                <label for="nome">Nome:</label>
+                    <label for="nome">Nome:</label>
+                    <br>
                     <input class="text" type="text" name="nome" id="nome" required>
                 </div>
-    
+
                 <div class="grupo">
                     <label for="sobrenome">Sobrenome:</label>
+                    <br>
                     <input class="text" type="text" name="sobrenome" id="sobrenome" required>
                 </div>
-    
+
                 <div class="grupo">
                     <label for="nascimento">Data de Nascimento:</label>
+                    <br>
                     <input class="text" type="date" name="nascimento" id="nascimento">
                 </div>
-    
+
                 <div class="grupo">
                     <label for="email">E-mail:</label>
+                    <br>
                     <input class="text" type="email" name="email" id="email">
                 </div>
-    
+
                 <div class="grupo">
                     <label for="sexo">Sexo:</label>
                     <label>
@@ -48,10 +52,10 @@
                         <input type="radio" name="feminino" value="F">F
                     </label>
                 </div>
-            </section>
             
 
-            <div>
+
+            <div class="personal">
                 <label for="instrumento">Qual instrumento você toca?</label>
                 <select id="intrumento" required>
                     <option selected disabled value="">Selecione</option>
@@ -64,10 +68,10 @@
                 </select>
             </div>
 
-            <div>
+            <div class="personal">
                 <label for="experiencia"><strong>Conte um pouco sobre sobre sua trajetória na música: </strong></label>
-                <br> 
-                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+                <br>
+                <textarea class="message"rows="6" id="experiencia" name="experiencia"></textarea>
             </div>
 
     </div>

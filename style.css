@@ -10,24 +10,49 @@ body {
 }
 
 .box {
-    margin: auto;
-    width: min(90vw, 800px);    
+    margin: 3rem auto;
+    width: min(90vw, 800px);
+    background: #f64f4f;
+    border-radius: 0.8rem;
+    padding-bottom: 1rem;
 }
 
 .box h1 {
     margin-bottom: 2.5rem;
     font-weight: normal;
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 0.4rem;
 
 }
 
 .box h2 {
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
-#pessoal {
-    padding-bottom: 2.5rem;
+.grupo {
+    margin-bottom: 0.7rem;
+    margin-left: 2rem;
+    font-size: 20px;
+    
 }
+
+.message {
+    width: calc(100% - 2rem);
+    border-radius: 0.8rem;
+}
+
+.personal {
+    margin-left: 2rem;
+}
+
+.text {
+    width: calc(100% - 2rem);
+    height: 3rem;
+    border-radius: 0.8rem;
+    border-bottom: 3px solid #000;
+    border-top: 0px;
+    border-left: 0;
+}
+
