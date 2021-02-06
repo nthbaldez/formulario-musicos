@@ -18,41 +18,35 @@
         <h2>Faça parte do nosso time!</h2>
 
         <form>
-            
-                <div class="grupo">
-                    <label for="nome">Nome:</label>
-                    <br>
-                    <input class="text" type="text" name="nome" id="nome" required>
-                </div>
 
-                <div class="grupo">
-                    <label for="sobrenome">Sobrenome:</label>
-                    <br>
-                    <input class="text" type="text" name="sobrenome" id="sobrenome" required>
-                </div>
+            <div class="grupo">
+                <label for="nome">Nome Completo:</label>
+                <br>
+                <input class="text" type="text" name="nome" id="nome" required>
+            </div>
 
-                <div class="grupo">
-                    <label for="nascimento">Data de Nascimento:</label>
-                    <br>
-                    <input class="text" type="date" name="nascimento" id="nascimento">
-                </div>
+            <div class="grupo">
+                <label for="nascimento">Data de Nascimento:</label>
+                <br>
+                <input class="text" type="date" name="nascimento" id="nascimento">
+            </div>
 
-                <div class="grupo">
-                    <label for="email">E-mail:</label>
-                    <br>
-                    <input class="text" type="email" name="email" id="email">
-                </div>
+            <div class="grupo">
+                <label for="email">E-mail:</label>
+                <br>
+                <input class="text" type="email" name="email" id="email">
+            </div>
 
-                <div class="grupo">
-                    <label for="sexo">Sexo:</label>
-                    <label>
-                        <input type="radio" name="masculino" value="M">M
-                    </label>
-                    <label>
-                        <input type="radio" name="feminino" value="F">F
-                    </label>
-                </div>
-            
+            <div class="grupo">
+                <label for="sexo">Sexo:</label>
+                <label>
+                    <input class="sexo" type="radio" name="masculino" value="M">M
+                </label>
+                <label>
+                    <input class="sexo" type="radio" name="feminino" value="F">F
+                </label>
+            </div>
+
 
 
             <div class="personal">
@@ -68,20 +62,19 @@
                 </select>
             </div>
 
-            <div class="personal">
+            <div class="personal2">
                 <label for="experiencia"><strong>Conte um pouco sobre sobre sua trajetória na música: </strong></label>
                 <br>
-                <textarea class="message"rows="6" id="experiencia" name="experiencia"></textarea>
+                <textarea class="message" rows="6" id="experiencia" name="experiencia"></textarea>
             </div>
 
+            <button class="botao" type="submit" onsubmit="">Enviar</button>
+
     </div>
-
-
-
-
-
-
     </form>
+
+    <footer>Instituto Nathan Baldez</footer>
+
 </body>
 
 </html>

@@ -46,6 +46,12 @@ body {
 
 .personal {
     margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.personal2 {
+    margin-left: 2rem;    
 }
 
 .text {
@@ -55,5 +61,48 @@ body {
     border-bottom: 3px solid #000;
     border-top: 0px;
     border-left: 0;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+
+select, button {
+    height: 1.8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button {
+    margin-left: 21.5rem;
+    margin-top: 1.5rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background: gray;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    opacity: 0.7;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    margin-top: -1.6rem;
+    font-weight: normal;
+    opacity: 0.7;
+    color: white;
+}
+
+.sexo {
+    margin-right: 0.6rem;
 }
 
